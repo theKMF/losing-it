@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Losing it</title>
+		<link href='https://fonts.googleapis.com/css?family=Bevan|Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
+		<link href='src/animate-custom.css' rel='stylesheet' type='text/css'>
+		<link href='src/style.css' rel='stylesheet' type='text/css'>
+        <!-- Startup configuration -->
+        <link rel="manifest" href="manifest.json">
+		<link rel="shortcut icon" sizes="192x192" href="icons/icon-192.png">
+        <!--<meta name='mobile-web-app-capable' content='yes'>-->
+        <meta name="theme-color" content="#cc0000">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="topHalf">
+				<div id="debugOutYeah" class="debugOut lazyhide">Output</div>
+				<div class="intro"><h1>Losing it</h1></div>
+			</div>
+			<div class="bottomHalf">
+				
+                <div class="" id="touchBoxWrapper">
+                    <div class="touchbox weight" id="box1">
+					   <h3>Weight</h3>
+                        <div class="numbers" id="weight"> Drag Me! </div>
+					   <span class="miniText">touch &amp; drag to adjust</span>
+				    </div>
+				    
+				    <div class="touchbox fat lazyhide" id="box2">
+					   <h3>Fat</h3>
+                        <div class="numbers" id="fat"> 37.2% </div>
+					   <span class="miniText" id="fatBonus">Should be between 14% to 21%</span>
+				    </div>
+                    
+                    <div class="touchbox water lazyhide" id="box3">
+                        <h3>Water</h3>
+                        <div class="numbers" id="water"> 50.1% </div>
+                        <span class="miniText" id="waterBonus">The average adult holds 50-65%</span>
+                    </div>
+                    
+                    <div class="touchbox muscle lazyhide" id="box4">
+                        <h3>Muscle</h3>
+                        <div class="numbers" id="muscle"> 30% </div>
+                        <span class="miniText" id="muscleBonus">Pump it</span>
+                    </div>
+                    
+                    <div class="touchbox bone lazyhide" id="box5">
+                        <h3>Bones</h3>
+                        <div class="numbers" id="bone"> 2.3 kg </div>
+                        <span class="miniText">Got milk?</span>
+                    </div>
+                    
+                    <div class="doneButton" id="done1">
+					   <h3> DONE </h3>
+				    </div>
+                </div>
+                
+				<div class="graphDiv" id="graphArea"></div>
+				
+				<div class="toggleWrapper lazyhide" id="toggles">
+                    <div class="toggleButton weight" id="toggleWeight"><div>T</div></div>
+                    <div class="toggleButton fat" id="toggleFat"><div>F</div></div>
+                    <div class="toggleButton water" id="toggleWater"><div>W</div></div>
+                    <div class="toggleButton muscle" id="toggleMuscle"><div>M</div></div>
+                    <div class="toggleButton bone" id="toggleBone"><div>B</div></div>
+                    <span class="stretch"></span>
+                </div>
+                
+				<div class="smallButton" id="viewStats">
+					Stats
+				</div>
+				
+			</div>
+	</body>
+        
+         <script src='src/domready.js' type='application/javascript'></script>
+		<script src='src/script.js' type='application/javascript'></script>
+</html> 

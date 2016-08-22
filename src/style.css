@@ -1,0 +1,186 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
+html	{font-size: 5vw;} 
+body	{font-size: 1rem; } 
+h1  	{font-size: 4rem; } 
+h2		{font-size: 2.5rem;}
+h3   	{font-size: 2rem; } 
+
+h1, h3{
+	padding: 0;
+	margin: 0;
+	font-family: 'Bevan';	
+	font-weight: 400; 
+	text-align: center;
+}
+
+.miniText{
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-size: smaller;
+	padding: 0;
+	margin: 0;
+	
+}
+
+body{
+	background-color: #ffffff;
+	color: #fee895;
+	width: 100%;
+    font-family: 'Bevan';	
+}
+
+.topHalf{
+	width: 100%;
+	background-color: #c00;
+	box-shadow:0px 0px 15px black;	
+}
+
+.bottomHalf{
+	margin-right: 10px;
+	padding-left: 10px;
+	
+}
+
+.touchbox{
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 60px;
+	padding-top: 40px;
+	box-shadow:1px 1px 9px grey;	
+}
+
+
+.weight{
+	background-color: #d37e29;
+}
+
+.fat{
+	background-color: #fee895;
+	color: #3f3a31;
+}
+
+.water{
+	background-color: #0f6499;
+}
+
+.muscle{
+	background-color: #7f0d0d;
+}
+
+.bone{
+	background-color: #fff;
+	color: #3f3a31;
+}
+
+.numbers{
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 800;
+	font-family: 'Ubuntu Mono', sans-serif;
+
+}
+
+#graphCanvas{
+	width:100%;
+}
+
+.wrapper{
+	height: 100%;
+}
+
+
+.intro{
+	height: 100%;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.debugOut{
+	font-family: sans-serif;
+	font-size: 0.8rem;
+
+}
+
+.doneButton{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    box-shadow:1px 1px 9px grey;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+	background-color: #7AD235;	
+	margin-left: auto ;
+	margin-right: auto ;
+	visibility: hidden;
+    
+}
+
+.graphDiv{
+    display: none;
+	padding-top: 100px;
+}
+
+.toggleWrapper{
+   
+    height: 120px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.toggleButton{
+    width: 100px;
+    height: 100px;
+   
+    overflow:hidden;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size:1rem;
+    box-shadow:1px 1px 9px grey;
+    
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+.toggleButton div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    margin-bottom:100%;
+    line-height:1rem;
+    margin-top:-0.5rem;
+    text-align:center;
+   
+}
+.smallButton{
+	padding: 20px;
+    margin: 5px;
+	background-color: grey;
+	font-size: 1rem;
+	font-family: 'Ubuntu Mono', sans-serif;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.lazyhide{
+	
+	display: none;
+}
+.stretch {
+     width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}

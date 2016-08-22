@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "version": "0.1",
+    "name": "Losing it",
+    "icons": [{
+        "src": "icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }],
+    "display": "fullscreen",
+    "orientation": "portrait"
+}
