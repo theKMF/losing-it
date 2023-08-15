@@ -173,6 +173,16 @@ body{
     bottom: 0;
     right: 0;
 }
+.exportButton{
+	padding: 20px;
+    margin: 5px;
+	background-color: grey;
+	font-size: 1rem;
+	font-family: 'Ubuntu Mono', sans-serif;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
 
 .lazyhide{
 	
